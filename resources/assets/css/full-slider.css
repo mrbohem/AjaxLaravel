@@ -1,0 +1,37 @@
+/*!
+ * Start Bootstrap - Full Slider (https://startbootstrap.com/template-overviews/full-slider)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-full-slider/blob/master/LICENSE)
+ */
+#loding_box3{
+	z-index: 100000000; margin:auto;position:fixed;z-index:100;background-color: #ffffff;height: 100%;width: 100%;
+}
+.carousel,.carousel .carousel-inner,.carousel .carousel-inner .active,.carousel .carousel-inner .carousel-item,.view,body,html{height:100%}
+.view {
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.navbar{background-color:rgba(0,0,0,.5)}
+.black-text{color: black;}
+.top-nav-collapse{
+	background:-webkit-linear-gradient(50deg,#45cafc,#303f9f)!important;background:linear-gradient(40deg,#45cafc,#303f9f)!important;
+}
+@media only screen and (max-width:768px){.navbar{background-color:#1C2331}}
+
+.overla{ 
+  color:#fff;
+  position:absolute;
+  z-index:1;
+  top:30%;
+  left:0;
+  width:100%;
+  text-align:center;
+}
+.carousel-input-box input[type=text]:focus:not([readonly]) {
+    border-bottom: 0px solid #ce93d8;
+    pointer-events: none;
+}
